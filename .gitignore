@@ -1,5 +1,5 @@
 #ignore phpstorm meta data
-.idea/
+.idea
 
 #ignore
 cache
