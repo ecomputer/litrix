@@ -7,5 +7,4 @@ vendor
 composer.phar
 composer.lock
 DB.txt
-DB.txt
 src-app/YourCode/Bundle/development.log
