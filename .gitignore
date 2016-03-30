@@ -1,3 +1,6 @@
+#ignore phpstorm meta data
+.idea/
+
 #ignore
 cache
 vendor
