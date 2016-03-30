@@ -1,0 +1,252 @@
+h1
+{
+    color:red;
+}
+
+.margin-left-10
+{
+    margin-left:10px;
+}
+.lista-no-style li{
+    list-style: none;
+}
+
+.listado td
+{
+    vertical-align: middle !important;
+}
+.icon-refresh-animate {
+    -webkit-animation-name: rotateThis;
+    animation-name: rotateThis;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotateThis {
+    from { transform: scale( 1 ) rotate( 0deg );   }
+    to   { transform: scale( 1 ) rotate( 360deg ); }
+}@keyframes rotateThis {
+    from { transform: scale( 1 ) rotate( 0deg );   }
+    to   { transform: scale( 1 ) rotate( 360deg ); }
+}
+
+.dropzone
+{
+    border: 1px dashed #0087F7 !important;
+    border-radius: 5px !important;
+    background: white !important;
+}
+.dropzone .dz-default.dz-message span
+{
+    display: block !important;
+}
+
+.dropzone .dz-message
+{
+    text-align: center !important;
+    font-weight: 400 !important;
+    font-size: 21px;
+}
+.dropzone.dz-clickable .dz-message, .dropzone.dz-clickable .dz-message * {
+    cursor: pointer !important;
+}
+
+.login-button
+{
+
+    margin-top: 40px;
+
+}
+.filtro-group
+{
+    margin-bottom: 0px;
+
+}
+.align-center
+{
+    text-align: center
+}
+
+.headingUsers .panel-heading{padding:15px 80px 15px 40px; !important;}
+
+.headingUsers .panel-heading .form-inline .form-group{text-align: right;}
+.panel-heading h4{float:left;}
+
+.upload_single_file_form #form_file
+{
+
+}
+.uploader-single-container, .showdocs-single-container, .showmsgs-single-container
+{
+    display: none;
+    height: 0px;
+}
+.font-size-16
+{
+    font-size: 16px;
+}
+
+.carga-multiple .panel-heading,
+.mensaje-multiple .panel-heading
+{
+    padding:15px 20px 15px 20px; !important;
+    width: 100%;
+    float: left;
+}
+.carga-multiple .panel-body form
+{
+    margin-top: 20px;
+}
+#listadomensajes th:first-child
+{
+    width: 30%;
+}
+#listadomensajes_wrapper div.col-sm-6{width: 100%}
+
+.active-menu-element
+{
+    background-color: white !important;
+    color: #777 !important;
+}
+.dataTables_filter input
+{
+    margin-left: 0px !important;
+}
+.alert {
+    padding: 6px !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 10px;
+    z-index: 9999;
+    text-align: center;
+    width: 250px;
+    display: none;
+    height: 35px;
+}
+#delete_user
+{
+
+    float: right;
+}
+#listadoficheros_wrapper .row:nth-of-type(2)
+{
+    min-height: 455px;
+}
+#listadomensajes_wrapper .row:nth-of-type(2)
+{
+    min-height: 425px;
+}
+#send_message_form_submit{
+    margin-bottom: 30px; 
+    margin-top: 30px;
+    float: right;
+}
+#listadomensajes_filter, #listadoficheros_filter
+{
+    float:left;
+}
+#listadoficheros_wrapper .col-sm-6:nth-of-type(1),#listadoficheros_wrapper .col-sm-6:nth-of-type(2)
+{
+    float: right;
+}
+#listadomensajes tr{
+    cursor: pointer;
+}
+
+.send-message-box
+{
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+.delete-file
+{
+    float: right;
+}
+.dataTables_wrapper {
+
+    padding-top: 15px;
+}
+.margin-top-10
+{
+    margin-top:15px;
+}
+.padding-top-5
+{
+    padding-top: 5px;
+}
+.padding-top-50
+{
+    padding-top: 50px;
+}
+.button-file-action
+{
+    float:left;
+    margin-right: 5px;
+}
+.dz-image img
+{
+    max-width: 98px;
+}
+
+#listadoficheros_info
+{
+    display: none;
+}
+#listadomensajes_info
+{
+    display: none;
+}
+.login-form-group
+{
+    margin-bottom: 0px;
+}
+.login-form-group label
+{
+    margin-top: 10px;
+}
+.error-login
+{
+    color:red;
+}
+.subtable
+{
+    width: 83.333333% !important; /*equivale a col lg 10*/
+
+}
+.table>thead>tr>th
+{
+ border: none !important;
+}
+.button-filtrar-usuarios
+{
+    margin-left: 15px;
+    width: 100px;
+}
+#todos_form_button{
+    margin-left: 10px;
+}
+#tableusers
+{
+    border-bottom: none !important;
+
+}
+#tableusers_wrapper .row:nth-child(2)
+{
+    height: 455px !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:active
+{
+    background: transparent !important;
+}
+
+.login-logo{
+    width: 100px;
+}

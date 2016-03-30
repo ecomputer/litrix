@@ -1,0 +1,33 @@
+base.config.front.routes:
+  login_redirect:
+    pattern: /login/redirect
+    defaults: { _controller: 'myapp.base.loginController:redirectAction' }
+    method: GET
+  ajaxlogincheck:
+    pattern: /login/check
+    defaults: { _controller: 'myapp.base.loginController:check' }
+    method: GET
+  login:
+    pattern: /login
+    defaults: { _controller: 'myapp.base.loginController:loginForm' }
+    method: GET
+  user_index:
+    pattern: /
+    defaults: { _controller: 'myapp.base.indexController:indexAction' }
+    method: GET
+  user_home:
+    pattern: /home
+    defaults: { _controller: 'myapp.base.indexController:indexAction' }
+    method: GET
+  admin:
+    pattern: /admin
+    defaults: { _controller: 'myapp.base.adminController:indexAction' }
+    method: GET
+  admin:
+    pattern: /menu
+    defaults: { _controller: 'myapp.base.adminController:indexAction' }
+    method: GET
+  user:
+    pattern: /user
+    defaults: { _controller: 'myapp.base.userController:indexAction' }
+    method: GET

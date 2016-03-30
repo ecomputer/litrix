@@ -1,0 +1,17 @@
+{% import "fragments/menu.twig" as menu %}
+
+{% extends "layout.twig" %}
+{% block title %}
+    LitriX admin
+{% endblock %}
+{% block content %}
+    {{ menu.getmenu("base_admin") }}
+    <div class="col-lg-12">
+        <p>Base Module - Admin View</p>
+
+    </div>
+    <div class="col-lg" >
+
+    </div>
+
+{% endblock %}

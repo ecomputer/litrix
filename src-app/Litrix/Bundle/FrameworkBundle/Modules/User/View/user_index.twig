@@ -1,0 +1,18 @@
+{% import "fragments/menu.twig" as menu %}
+{% extends "layout.twig" %}
+
+{% block title %}
+    LitriX
+{% endblock %}
+
+{% block content %}
+    {{ menu.getmenu("index") }}
+    <div class="container">
+        <div class="col-lg-12">
+            <h1>Hi!</h1>
+            <p>public index controller user module</p>
+
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% import "fragments/menu.twig" as menu %}
+
+{% extends "layout.twig" %}
+{% block title %}
+    LitriX
+{% endblock %}
+{% block content %}
+    {{ menu.getmenu("user") }}
+    <div class="col-lg-12">
+        <p>Base Module - User View</p>
+
+    </div>
+{% endblock %}

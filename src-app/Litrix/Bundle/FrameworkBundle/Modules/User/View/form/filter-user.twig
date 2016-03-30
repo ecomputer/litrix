@@ -1,0 +1,20 @@
+<div class="filtro-group">
+    <form class="form-inline" role="form" action="{{ path("user_filterusers") }}" name="filter_user_form" id="filter_user_form" method="post" {{ form_enctype(form_filter_user) }} >
+        <fieldset>
+
+            <div class="form-group col-lg-12 align-center padding-top-5">
+
+                {{ form_errors(form_filter_user.nombre) }}
+                {{ form_widget(form_filter_user.nombre) }}
+
+                {{ form_errors(form_filter_user.email) }}
+                {{ form_widget(form_filter_user.email) }}
+                {{ form_label(form_filter_user.activo,"Activo",{'label_attr':{'class':'control-label'}})  }}
+                {{ form_errors(form_filter_user.activo) }}
+                {{ form_widget(form_filter_user.activo) }} {{ form_widget(form_filter_user._token) }}
+                <button id="filter_user_form_button" type="submit" name="submit"  class="btn btn-primary button-filtrar-usuarios">Filtrar</button>
+                <button id="todos_form_button" type="button" name="submit"  class="btn btn-info button-filtrar-info">Ver todos</button>
+            </div>
+        </fieldset>
+    </form>
+</div>

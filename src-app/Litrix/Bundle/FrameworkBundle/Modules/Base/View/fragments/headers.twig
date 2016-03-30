@@ -1,0 +1,26 @@
+{% macro getStyles() %}
+
+
+    <link href="{{ app.request.basepath }}/css/style.css" type="text/css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/bootstrap-switch.min.css" type="text/css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/jquery.dataTables.css" type="text/css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/dataTables.bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/style-client.css" type="text/css" rel="stylesheet">
+    <link href="{{ app.request.basepath }}/css/media_queyes.css" type="text/css" rel="stylesheet">
+
+{% endmacro %}
+
+{% macro getScripts() %}
+
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/bootstrap.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/bootstrap-waitingfor.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/funciones.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/bootbox.min.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/dataTables.bootstrap.js"></script>
+    <script type="text/javascript" language="JavaScript" src="{{ app.request.basepath }}/js/init.js"></script>
+
+{% endmacro %}

@@ -1,0 +1,81 @@
+/*CLEINTE*/
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+/*Importante el orden de estos 3 estilos!!*/
+.color-white
+{
+    color: black;
+}
+.color-white:active
+{
+    color: #777 !important;
+}
+.color-white:hover
+{
+    color: #FFF;
+}
+.navbar-default {
+    background-color: #111 !important;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+    color: white;
+}
+.green-user
+{
+    color: white !important;
+}
+.green-user:hover, .green-user:focus
+{
+    color:#c0c0c0 !important;
+}
+
+.admin-title-table-file
+{
+    border-left: 1px solid #337ab7;
+
+    padding: 8px;
+}
+
+.admin-title-table-msg
+{
+
+    border-left: 1px solid #5cb85c;
+    padding: 8px;
+
+}
+
+#tableusers button, #listadoficheros button
+{
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.login-button
+{
+    margin-top: 80px;
+    width: 60%;
+}
+
+.right{
+    right: 0;
+}
+
+
+.login-form-group label, .login-form-group input
+{
+    clear: both;
+}
+
+.headingUsers .panel-body
+{
+    overflow-y: scroll;
+
+
+}

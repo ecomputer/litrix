@@ -1,0 +1,37 @@
+user.config.front.routes:
+  user_index_action:
+      pattern: /module/user/index
+      defaults: { _controller: 'myapp.user.indexController:indexAction' }
+      method: GET
+  user_admin:
+      pattern: /admin/module/user/
+      defaults: { _controller: 'myapp.user.adminController:indexAction' }
+      method: GET
+  user_userlist:
+      pattern: /admin/module/user/userlist
+      defaults: { _controller: 'myapp.user.adminController:listaUsersAction' }
+      method: GET
+  user_usercreate:
+      pattern: /admin/module/user/usercreate
+      defaults: { _controller: 'myapp.user.adminController:createUserAction' }
+      method: POST|GET
+  user_useredit:
+      pattern: /admin/module/user/edit/{id}
+      defaults : { _controller: 'myapp.user.adminController:editUserAction' }
+      method: GET
+  user_editUserAction:
+      pattern: /admin/module/user/edit/{id}
+      defaults: { _controller: 'myapp.user.adminController:editUserAction' }
+      method: POST
+  user_filterusers:
+      pattern: /admin/module/user/filterusers
+      defaults: { _controller: 'myapp.user.adminController:filterUser' }
+      method: POST|GET
+  user_deleteuser:
+      pattern: /admin/module/user/delete/{id}
+      defaults: { _controller: 'myapp.user.adminController:deleteUserAction' }
+      method: GET
+  user_user:
+      pattern: /user/module/user
+      defaults: { _controller: 'myapp.user.userController:indexAction' }
+      method: GET

@@ -1,0 +1,8 @@
+bye.config.api.routes:
+  bye_index_action:
+      pattern: /api/rest/module/bye/index
+      defaults: { _controller: 'myapp.bye.indexController:apiIndexAction' }
+      method: GET
+
+
+

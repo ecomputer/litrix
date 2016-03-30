@@ -1,0 +1,12 @@
+bye.config.front.routes:
+  bye_api_index_action:
+    pattern: /module/bye
+    defaults: { _controller: 'myapp.bye.indexController:indexAction' }
+    method: GET
+  bye_api_admin_index_action:
+    pattern: /admin/module/bye
+    defaults: { _controller: 'myapp.bye.indexController:indexAction' }
+    method: GET
+
+
+

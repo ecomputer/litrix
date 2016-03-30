@@ -1,0 +1,8 @@
+user.config.api.routes:
+  bye_index_action:
+      pattern: /api/rest/module/user/index
+      defaults: { _controller: 'myapp.user.indexController:apiIndexAction' }
+      method: GET
+
+
+
