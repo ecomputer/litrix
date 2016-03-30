@@ -1,5 +1,5 @@
 {
-  "name": "iecom/litrix",
+  "name": "ecomputer/litrix",
   "description": "LitriX - Contenedor para injección de dependencias escalado a estructura de componentes modulos interoperable",
   "license": "GPLv3",
   "type": "project",

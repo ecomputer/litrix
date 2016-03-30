@@ -1,3 +1,8 @@
 Ecomputer Litrix liberado!
 
-- [ ] Instrucciones inicialización de nuevo proyecto
+
+Tareas
+
+- [] Instrucciones inicialización de nuevo proyecto
+- [] Inicializar tablas base de framework desde Código
+- [] Añadir a packagist (composer create)
