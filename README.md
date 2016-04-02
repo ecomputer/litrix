@@ -18,4 +18,4 @@ v0 -> Tareas pendientes para que Litrix pueda ser llamado Framework
 v1 -> Tareas Litrix
 
 - [ ] Desarrollo componente cliente javascript en base a angular
-- [ ] Sistema de plantillas
+- [ ] Sistema de plantillas y temas
