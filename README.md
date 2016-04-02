@@ -2,7 +2,7 @@ Ecomputer Litrix liberado!
 
 ¿Que es litrix?
 
-Litrix surge como necesidad de base de dsarrollo interoperable entre proyectos en Server side, basado en Silex microframeowrk, componentes symfony y de terceros.
+Litrix surge como necesidad de base de desarrollo interoperable entre proyectos en el lado de servidor, basado en Silex microframeowrk, componentes symfony y de terceros.
 Uso libre para uso y distribución GPLv3.
 
 Tareas pendientes para que Litrix pueda ser llamado Framework v0
@@ -18,3 +18,4 @@ Tareas pendientes para que Litrix pueda ser llamado Framework v0
 Tareas Litrix v1
 
 - [ ] Desarrollo componente cliente javascript en base a angular
+- [ ] Sistema de plantillas
