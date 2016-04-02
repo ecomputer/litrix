@@ -14,6 +14,8 @@ v0 -> Tareas pendientes para que Litrix pueda ser llamado Framework
 - [ ] Scaffold de módulos
 - [ ] Control de autenticación por módulo
 - [ ] Control de excepciones por módulo + Dispatcher
+- [ ] Documentación Online + Web proyecto
+- [ ] Trello abierto para control de mejoras
 
 v1 -> Tareas Litrix
 
