@@ -21,3 +21,5 @@ v1 -> Tareas Litrix
 
 - [ ] Desarrollo componente cliente javascript en base a angular
 - [ ] Sistema de plantillas y temas
+
+[![Join the chat at https://gitter.im/ecomputer/litrix](https://badges.gitter.im/ecomputer/litrix.svg)](https://gitter.im/ecomputer/litrix?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
